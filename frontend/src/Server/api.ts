@@ -1,6 +1,6 @@
 import axios from 'axios';
 
 export default axios.create({
-    baseURL: "http://localhost:3333/",
+    baseURL: "https://hackathon-backend01.herokuapp.com/",
     responseType: "json"
 })
