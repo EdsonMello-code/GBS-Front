@@ -1,0 +1,36 @@
+.Subtitle{
+    color: #056367;
+    font-size: 1em;
+    letter-spacing: 0px;
+    font-weight: 400;
+}
+
+.App-header {
+    background-color: var(--primary-bg);
+    margin-top: 25vh;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+
+    .App-header p{
+        margin-bottom: 0px;
+        font-size: 1.5em;
+    }
+
+
+    .App-header img{
+        margin-bottom: 20px;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+    }

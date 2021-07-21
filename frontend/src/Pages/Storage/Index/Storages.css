@@ -1,0 +1,75 @@
+.storage-index{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../../Assets/map.png");
+    height: 100vw;
+    overflow: hidden;
+}
+
+.storage-listing{
+    max-height: 80vh;
+    overflow-y: scroll;
+    overflow-x: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+    justify-content: left;
+
+    max-width: 550px;
+}
+
+.storage-announcement{
+    max-height: 70vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100px;
+    min-height: 100px;
+
+    display: flex;
+
+    border-radius: 8px;
+    background-color: var(--secondary-bg);
+    color: var(--secondary-font);
+    box-shadow: var(--default-shadow);
+
+    overflow: hidden;
+}
+
+.storage-image-container img{
+    border-radius: 8px;
+    height: 80px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.storage-announcement-info{
+    text-align: left;
+    padding-bottom: 10px;
+    white-space: nowrap;
+}
+
+.storage-announcement-info div img{
+    padding-bottom: 2.5px;
+    padding-left: 2.5px;
+}
+
+@media (max-width: 1200px) {
+    .storage-listing{
+        width: 50vw;
+    }
+}
+
+@media (max-width: 700px) {
+    .storage-listing{
+        width: 80vw;
+    }
+}

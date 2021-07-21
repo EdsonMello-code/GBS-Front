@@ -1,0 +1,83 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.App {
+  text-align: center;
+  margin: 0;
+  
+  background-color: var(--primary-bg);
+  color: var(--primary-font);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+:root{
+  --primary-bg: #dcdce0;
+  --primary-font: #272727;
+  --secondary-bg: #212529;
+  --secondary-font: #c3c5d4;
+  --default-shadow: 5px 5px 4px rgba(0, 0, 0, 0.15);
+}
+
+:root{
+  background-color: var(--primary-bg);
+}
+
+body,html {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    overflow-y: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+/* Scroll settings */
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #272727;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+.default-button{
+  outline: none;
+  border-radius: 8px;
+  background-color: var(--secondary-bg);
+  color: var(--secondary-font);
+  box-shadow: var(--default-shadow);
+}
+
+.default-button span{
+  font-weight: 500;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.default-button img{
+  padding-bottom: 2.5px;
+}
